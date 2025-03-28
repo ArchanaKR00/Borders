@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Borders</title>
+  </head>
+  <body>
+    <!-- Border Width & Colors -->
+    <!-- https://tailwindcss.com/docs/border-width -->
+     <div class="flex space-x-8 p-10">
+    <div class="border border-indigo-600 h-20 w-20"></div>
+    <div class="border-2 border-indigo-600 h-20 w-20"></div>
+    <div class="border-4 border-indigo-600 h-20 w-20"></div>
+    <div class="border-8 border-indigo-600 h-20 w-20"></div>
+     
+     </div>
+<div class="flex space-x-8 p-10">
+<div class=" border border-t-4 border-indigo-500 h-20 w-20"></div>
+<div class="border-2 border-r-4 border-indigo-500 h-20 w-20"></div>
+<div class=" border border-b-4 border-indigo-500 h-20 w-20"></div>
+<div class=" border border-l-4 border-indigo-500 h-20 w-20"></div>
+</div>
+
+<div class="flex space-x-8 p-10">
+  <div class=" border border-x-4 border-indigo-500 h-20 w-20"></div>
+  <div class=" border border-y-4 border-indigo-500 h-20 w-20"></div>
+
+
+</div>
+<div class="flex space-x-8 p-10">
+<div dir="ltr">
+  <div class=" border border-s-4 border-indigo-600 h-20 w-20"></div>
+</div>
+<div dir="rtl">
+  <div class=" border border-s-4 border-indigo-600 h-20 w-20 "></div>
+</div>
+</div>
+
+<div class=" border grid grid-cols-3 divide-x-4 border-indigo-800 h-10 w-15">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+
+    <!-- Border Radius -->
+    <!-- https://tailwindcss.com/docs/border-radius -->
+     <div class="flex space-x-8 p-10 ">
+      <div>
+        <p>rounded-sm</p>
+    <div class="rounded-sm bg-orange-500 h-20 w-20"></div> </div>
+    <div><p>rounded-md</p>
+    <div class="rounded-md  bg-orange-500 h-20 w-20 "></div></div>
+    <div><p>rounded-lg</p>
+    <div class="rounded-lg  bg-orange-500 h-20 w-20 "></div></div>
+    <div><p>rounded-xl</p>
+    <div class="rounded-xl  bg-orange-500 h-20 w-20 "></div></div>
+  </div>
+    <!-- Specific Sides -->
+     <div class="flex space-x-8 p-10">
+      <div>
+        <p>rounded-t-lg</p>
+    <div class="rounded-t-lg bg-red-600 h-20 w-20"></div></div>
+    <div><p>rounded-r-lg</p>
+    <div class="rounded-r-lg bg-red-600 h-20 w-20"></div></div>
+    <div><p>rounded-b-lg</p>
+    <div class="rounded-b-lg bg-red-600 h-20 w-20"></div></div>
+    <div><p>rounded-l-lg</p>
+    <div class="rounded-l-lg bg-red-600 h-20 w-20"></div></div>
+    
+</div>
+<div class="flex space-x-8 p-10">
+  <div><p>rounded-tl-lg</p>
+<div class="rounded-tl-lg h-20 w-20 bg-pink-700"></div></div>
+<div><p>rounded-tr-lg</p>
+<div class="rounded-tr-lg h-20 w-20 bg-pink-700"></div></div>
+<div><p>rounded-br-lg</p>
+<div class="rounded-br-lg h-20 w-20 bg-pink-700"></div></div>
+<div><p>rounded-bl-lg</p>
+<div class="rounded-bl-lg h-20 w-20 bg-pink-700"></div></div>
+</div>
+</div>
+  </body>
+</html>
