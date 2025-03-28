@@ -3,4 +3,4 @@
 
 ### tailwind
 
-![img](border.jpeg)
+![img](./border.jpeg)
